@@ -1,0 +1,50 @@
+.card > img {
+  width: auto;
+  height: 240px;
+}
+
+.card > .card-body > .card-text {
+    height: 100px;
+    overflow: scroll;
+}
+
+#carouselOfArrivedBooks img {
+  margin: 0 auto;
+  width: 324;
+  height: 458px;
+}
+
+#carouselOfArrivedBooks .carousel-inner {
+  width: 50%;
+  margin: 0 auto;
+}
+
+#carouselOfPopularBooks img {
+  margin: 0 auto;
+  width: 324;
+  height: 458px;
+}
+
+#carouselOfPopularBooks .carousel-inner {
+  width: 50%;
+  margin: 0 auto;
+}
+
+.container-fluid {
+  height: 400px;
+  background-image: url("https://source.unsplash.com/o0Qqw21-0NI");
+  background-position: center -80px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.container-fluid > .container {
+  height: 100%;
+}
+
+.container-left, .container-right {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+}

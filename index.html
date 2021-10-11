@@ -1,0 +1,202 @@
+<!doctype html>
+<html>
+
+<head>
+    <!-- Meta Tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-wEmeIV1mKuiNpC+IOBjI7aAzPcEZeedi5yW5f2yOq55WWLwNGmvvx4Um1vskeMj0" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css "
+        integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+
+    <!-- Stylesheet CSS -->
+    <link rel="stylesheet" href="./css/styles.css">
+    <link rel="stylesheet" href="./css/index.css">
+
+    <title>Library | Homepage</title>
+</head>
+
+<body>
+
+    <!-- header -->
+    <div class="container">
+        <header class="d-flex flex-wrap justify-content-center py-3 mb-4 border-bottom">
+            <a href="#" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-dark text-decoration-none">
+                <img src="./assets/logo.png" alt="logo of the university" height="48" width="auto">
+            </a>
+            <ul class="nav nav-pills">
+                <li class="nav-item">
+                    <a href="#" class="nav-link active">Homepage</a>
+                </li>
+                <li class="nav-item">
+                    <a href="books.html" class="nav-link">Books</a>
+                </li>
+                <li class="nav-item">
+                    <a href="borrowabook.html" class="nav-link">Borrow a Book</a>
+                </li>
+            </ul>
+        </header>
+    </div>
+    <!-- header ends -->
+
+    <div class="container-fluid">
+        <div class="container d-flex justify-content-between">
+            <div class="container-left">
+                <img src="./assets/logo.png" alt="logo of the university">
+            </div>
+            <div class="container-right">
+                <h2>
+                    Development of information functions, accumulation of third-party and
+                    creation of own information resources, providing access to national and
+                    world information networks
+                </h2>
+            </div>
+        </div>
+    </div>
+
+    <div class="container my-5 d-flex justify-content-between">
+        <div class="container w-50">
+            <h4 class="text-center">Newly Arrived Books</h4>
+            <div id="carouselOfArrivedBooks" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="./assets/book2.jpg" class="d-block" alt="book 2">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./assets/book5.jpg" class="d-block" alt="book 5">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./assets/book6.jpg" class="d-block" alt="book 6">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselOfArrivedBooks"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselOfArrivedBooks"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </div>
+        <div class="container w-50">
+            <h4 class="text-center">Popular Books</h4>
+            <div id="carouselOfPopularBooks" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="./assets/book1.jpg" class="d-block" alt="book 2">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./assets/book3.jpg" class="d-block" alt="book 5">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./assets/book4.jpg" class="d-block" alt="book 6">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselOfPopularBooks"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselOfPopularBooks"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- book databases -->
+    <div class="container my-4">
+        <h4>Subscription Databases</h4>
+        <div class="row">
+            <div class="col-sm-4">
+                <div class="card">
+                    <img src="./assets/elsevier.png" alt="elsevier">
+                    <div class="card-body">
+                        <div>
+                            <h5 class="card-title">Elsevier</h5>
+                        </div>
+                        <p class="card-text">Elsevier is a Netherlands-based publishing company specializing in
+                            scientific, technical, and medical content.
+                            It is a part of the RELX Group, known until 2015 as Reed Elsevier</p>
+                    </div>
+                    <div class="card-body">
+                        <a href="https://www.elsevier.com/" class="btn btn-primary">Website link</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <div class="card">
+                    <img src="./assets/webofscience.jpeg" alt="web of science">
+                    <div class="card-body">
+                        <div>
+                            <h5 class="card-title">ScienceDirect</h5>
+                        </div>
+                        <p class="card-text">ScienceDirect is a website which provides access to a large bibliographic
+                            database of scientific and medical publications of the Dutch publisher Elsevier. It hosts
+                            over 18 million pieces of content from more than 4,000 academic journals and 30,000 e-books
+                            of this publisher</p>
+                    </div>
+                    <div class="card-body">
+                        <a href="https://www.sciencedirect.com/" class="btn btn-primary">Website link</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <div class="card">
+                    <img src="./assets/rmeb.png" alt="rmeb">
+                    <div class="card-body">
+                        <div>
+                            <h5 class="card-title">РМЭБ</h5>
+                        </div>
+                        <p class="card-text">Republican Interuniversity Electronic Library – corporate electronic
+                            catalog of full-text educational resources of higher education institutions of the Republic
+                            of Kazakhstan</p>
+                    </div>
+                    <div class="card-body">
+                        <a href="https://www.rmebrk.kz/" class="btn btn-primary">Website link</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- book databases ends -->
+
+    <!-- footer -->
+    <div class="container">
+        <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+            <p class="col-md-5 mb-0 text-muted">© 2021 Astana IT University</p>
+            <a href="index.html" class="col-md-2 mb-3 mb-md-0 me-md-auto link-dark text-decoration-none">
+                <img src="./assets/logo.png" alt="logo of the university" height="48" width="auto">
+            </a>
+            <ul class="nav col-md-5 justify-content-end">
+                <li class="nav-item">
+                    <p class="px-2 text-muted">Mangilik Yel, C1</p>
+                </li>
+                <li class="nav-item">
+                    <p class="px-2 text-muted">+7 (777) 123-45-45</p>
+                </li>
+                <li class="nav-item">
+                    <p class="px-2 text-muted">library@aitu.edu.kz</p>
+                </li>
+            </ul>
+        </footer>
+    </div>
+    <!-- footer ends -->
+
+    <!-- bootstrap js -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf"
+        crossorigin="anonymous"></script>
+
+</body>
+
+</html>
